@@ -12,6 +12,7 @@
 		6F59404620AE17BD00BEFE7B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6F59404420AE17BD00BEFE7B /* Main.storyboard */; };
 		6F59404820AE17BF00BEFE7B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6F59404720AE17BF00BEFE7B /* Assets.xcassets */; };
 		6F59404B20AE17BF00BEFE7B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6F59404920AE17BF00BEFE7B /* LaunchScreen.storyboard */; };
+		6F59405320AE195B00BEFE7B /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 6F59405220AE195B00BEFE7B /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		6F59404720AE17BF00BEFE7B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6F59404A20AE17BF00BEFE7B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6F59404C20AE17BF00BEFE7B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6F59405220AE195B00BEFE7B /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,6 +40,7 @@
 		6F59403420AE17BD00BEFE7B = {
 			isa = PBXGroup;
 			children = (
+				6F59405220AE195B00BEFE7B /* README.md */,
 				6F59403F20AE17BD00BEFE7B /* Detect-a-Beacon */,
 				6F59403E20AE17BD00BEFE7B /* Products */,
 			);
@@ -124,6 +127,7 @@
 			files = (
 				6F59404B20AE17BF00BEFE7B /* LaunchScreen.storyboard in Resources */,
 				6F59404820AE17BF00BEFE7B /* Assets.xcassets in Resources */,
+				6F59405320AE195B00BEFE7B /* README.md in Resources */,
 				6F59404620AE17BD00BEFE7B /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -281,12 +285,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9JK6DF95Y7;
 				INFOPLIST_FILE = "Detect-a-Beacon/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.forrestwparker.Detect-a-Beacon";
+				PRODUCT_BUNDLE_IDENTIFIER = com.forrestwparker.asdf;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -298,12 +303,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9JK6DF95Y7;
 				INFOPLIST_FILE = "Detect-a-Beacon/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.forrestwparker.Detect-a-Beacon";
+				PRODUCT_BUNDLE_IDENTIFIER = com.forrestwparker.asdf;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
